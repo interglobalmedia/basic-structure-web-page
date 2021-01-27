@@ -19,7 +19,7 @@ Since `HTML` was ***first*** [introduced](https://en.wikipedia.org/wiki/HTML) **
 <section class="section">
     <h2 class="sentence">What exactly IS HTML?</h2>
 
-`HTML` ***stands*** for `Hyper Text Markup Language`. It ***gives*** content `structure` and `meaning` by ***defining*** the content as `headings`, `paragraphs`, `tables`, `lists`, or `images`, for ***example***.
+`HTML` ***stands*** for `Hyper Text Markup Language`. It ***gives*** content `structure` and `meaning` to a ***page*** by ***defining*** the ***content*** as `headings`, `paragraphs`, `tables`, `lists`, or `images`, for ***example***.
 </section>
 
 ---
@@ -29,7 +29,7 @@ Since `HTML` was ***first*** [introduced](https://en.wikipedia.org/wiki/HTML) **
 
 When ***learning*** `HTML`, the ***first*** `HTML` **term** one should ***tackle*** is the `HTML element`.
 
-`HTML element`: is an ***individual*** component within an `HTML` document. It ***represents*** `semantics`, or `meaning`, and it ***defines*** the **structure** and **content** of an `object` ***within*** a `web page`. For ***example***, the `title element` ***represents*** the `title` of the `document`.
+`HTML element`: is an ***individual*** component within an `HTML` document. It ***can*** represent `semantics`, or `meaning`, and it ***defines*** the **structure** and **content** of an `object` ***within*** a `web page`. For ***example***, the `title element` ***represents*** the `title` of the `document`.
 
 `HTML tag`: ***most*** `HTML elements` ***usually*** consist of an `opening` and `closing` ***tag***. For ***example***, the `title` ***tag*** basically **looks** like the ***following***:
 
@@ -858,7 +858,7 @@ The `<!DOCTYPE html>` declaration is ***not*** case sensitive. But ***convention
 ---
 
 <section class="section">
-    <h2 class="sentence">The html tag: its purpose and meaning</h2>
+    <h2 class="sentence">The html element: its purpose and meaning</h2>
 
 The `html` element ***represents*** the `root`, or `top-level` element, of an `HTML` document. It is ***also*** referred to as the `root` element. ***All*** other elements on the `page` ***must*** be ***descendants*** of the `html` element.
 
@@ -875,9 +875,9 @@ In our ***basic*** `web page`, `VS Code` ***generated*** the ***global*** `lang`
 <section class="section">
     <h2 class="sentence">The head element: its purpose and meaning</h2>
 
-The ***purpose*** of the `HTML` `head` element is to contain ***machine-readable*** information (`metadata`) about the `document`. Like its `title`, `scripts`, and `style sheets`.
+The ***purpose*** of the `HTML` `head` element is to contain ***machine-readable*** information (`metadata`) about the `document`. Like its `meta` tag(s), `title`, `scripts`, and `style sheets`.
 
-The `head` element ***primarily*** holds information for ***machine processing***, ***not*** human readability. That is ***why*** things like the content of the `title` element ***don't*** render to the `web page`.
+The `head` element ***primarily*** holds information for ***machine processing***, ***not*** human readability. That is ***why*** things like the ***content*** of the `title` element ***don't*** render to the `web page`.
 
 The `name` of the `head` element is ***semantic***. It is the ***first*** element ***wrapped*** inside the `html` element, the element which ***holds*** valuable ***metadata*** about the `page` ***content***, and it ***sits*** at the `"head"` of of the `document`.
 
@@ -886,9 +886,11 @@ The `name` of the `head` element is ***semantic***. It is the ***first*** elemen
 ---
 
 <section class="section">
-    <h2 class="sentence">The meta charset tag: its purpose and meaning</h2>
+    <h2 class="sentence">The meta element and the charset attribute: their purpose and meaning</h2>
 
-The ***first*** element inside our ***basic*** `web page` is a `meta` element with the `charset` attribute. The `charset` attribute is ***one*** of the attributes that the `meta` element ***accepts***.
+The ***first*** element ***inside*** our ***basic*** `web page`'s `head` element is a `meta` element with the `charset` attribute. The `charset` attribute is ***one*** of the attributes that the `meta` element ***accepts***.
+
+The `meta` element ***defines*** `metadata` about an `HTML` document. `Metadata` is ***data*** (information) about ***data***.
 
 The `meta` element's `charset` attribute ***specifies*** the `character encoding` for the `HTML` `document`.
 
@@ -991,7 +993,7 @@ There are also ***advantages*** to ***using*** `UTF-8`.
 
 ***First***, `UTF-8` is spatially ***efficient***. `UTF-8` ***converts*** a `code point` (which ***represents*** a single character in `Unicode`) into a ***set*** of 1 - 4 `bytes`.
 
-The ***first*** 256 characters in the `Unicode` library, which ***include*** the characters in `ASCII`, are ***represented*** as one `byte`. Characters that appear ***later*** in the `Unicode` library are ***encoded*** as `two-byte`, `three-byte,` and `four-byte` binary units.
+The ***first*** 256 characters in the `Unicode` library, which ***include*** the characters in `ASCII`, are ***represented*** as one `byte`. Characters that appear ***later*** in the `Unicode` library are ***encoded*** as `two-byte`, `three-byte,` and `four-byte` ***binary*** units.
 
 ***Why***? To ***save memory***. `UTF-8` uses ***less*** space to ***represent*** more ***common*** characters, and ***more*** space for ***less*** common ones. These characters are ***encoded*** into 2 or ***more*** bytes.
 
@@ -1019,7 +1021,7 @@ And of ***course*** text files ***encoded*** with `UTF-8` ***must*** indicate th
 <section class="section">
     <h2 class="sentence">The purpose and meaning of the title element</h2>
 
-***Below*** the `meta` element is a `title` element. It ***defines*** the `document`'s `title` that is ***shown*** in the ***browser's*** `title bar` or a ***page's*** `tab`. It ***only*** contains text, and tags placed ***within*** the element are ***ignored***.
+***Below*** the `meta` element is a `title` element. It ***defines*** the `document`'s `title` that is ***shown*** in the ***browser's*** `title bar` or a ***page's*** `tab`. It ***only*** contains `text`, and `tags` placed ***within*** the `element` are ***ignored***.
 
 the `title` element is ***required*** in `HTML` documents, and the ***contents*** of a page `title` is ***very*** important for `search engine optimization` (`SEO`).
 
@@ -1034,7 +1036,7 @@ The page `title` is ***used*** by `search engine` algorithms to ***decide*** its
 
 The element which ***follows*** the `head` element on the web page is the `body` element.
 
-The `body` element ***represents*** the content of an `HTML` document. it is ***semantic***, because a `body` always comes after a `head` and the term `body` ***not*** only means `organized physical substance of an animal or plant`. It ***also*** means `main structure or part of something inanimate`. The name provides a good description of what it ***represents*** in the `HTML` document.
+The `body` element ***represents*** the ***content*** of an `HTML` document. It is ***semantic***, because a `body` always comes after a `head`, and the term `body` does ***not*** only mean `organized physical substance of an animal or plant`, for ***example***. It ***also*** means the `main structure or part of something inanimate`. The `name` ***provides*** a ***good*** description of what it ***represents*** in the `HTML` document.
 
 </section>
 
@@ -1043,11 +1045,15 @@ The `body` element ***represents*** the content of an `HTML` document. it is ***
 <section class="section">
     <h2 class="sentence">The h1 element</h2>
 
-At the ***top*** of the `body` element, right ***below*** the ***opening*** `body` tag, our basic web page ***contains*** an `h1` element. The `h1` element's ***contents*** should ***describe*** the overall ***purpose*** of the page content.
+At the ***top*** of the `body` element, right ***below*** the ***opening*** `body` tag, our basic web page ***contains*** an `h1` element. 
+
+The `h1` element is ***used*** to ***indicate*** the ***most*** important (or ***highest-level***) `heading` on the `page`.
+
+The `h1` element's ***contents*** should ***describe*** the overall ***purpose*** of the `page` content. ***If*** the ***content*** of the `h1` element ***does*** successfully ***describe*** the ***overall*** purpose of the `page` content, it will ***improve*** the `SEO` of the `web page`, thereby ***improving*** its ***ranking*** in `search results`. 
 
 It is ***best*** practice to ***avoid*** skipping `heading` levels.
 
-Traditionally, it ***also*** best practice to ***only*** use one `h1` element per page. Using ***more*** than one does ***not*** result in an error, but it is ***not*** considered ***best*** practice. To only have ***one*** is ***better*** for `screen readers` and `SEO`.
+Traditionally, it ***also*** best practice to ***only*** use one `h1` element ***per*** page. Using ***more*** than one does ***not*** result in an ***error***, but it is ***not*** considered ***best*** practice. To only have ***one*** is ***better*** for `screen readers` and `SEO`.
 
 </section>
 
@@ -1056,9 +1062,9 @@ Traditionally, it ***also*** best practice to ***only*** use one `h1` element pe
 <section class="section">
     <h2 class="sentence">The p element</h2>
 
-Also textually ***semantic***, the `p` element ***represents*** a paragraph of ***text***.
+***Also*** textually ***semantic***, the `p` element ***represents*** a paragraph of ***text***.
 
-Heading elements (i.e., `h1` element) are ***often*** followed by supporting `p` elements.
+`Heading` elements (i.e., `h1` element) are ***often*** followed by ***supporting*** `p` elements.
 
 Paragraphs are ***usually*** represented as ***blocks*** of text ***separated*** from ***adjacent*** blocks by ***blank*** lines and/or ***first-line*** indentation, but they can be ***any*** structural grouping of ***related*** content, such as `images` or `form` fields.
 
@@ -1097,6 +1103,15 @@ The ***following*** is the ***latest*** list of `Global HTML Attributes` as ***p
 + tabindex
 + title: ***discouraged***, as ***many*** user agents (browsers) do ***not*** expose the `attribute` in an ***accessible*** manner as ***required*** by the `HTML specification` (e.g., ***requiring*** a `pointing device` such as a `mouse` to ***cause*** a `tooltip` to ***appear***, which ***excludes*** `keyboard-only` ***users*** and `touch-only` ***users***, such as ***anyone*** with a ***modern*** phone or tablet)
 + translate
+
+</section>
+
+---
+
+<section class="section">
+  <h2 class="sentence">What does it mean to be a global attribute?</h2>
+
+A `global` attribute is one that is ***common*** to ***all*** `HTML` elements. They can be ***used*** on ***all*** elements, even ***though*** they may have ***no*** effect on ***some*** elements.
 
 </section>
 
@@ -1212,6 +1227,8 @@ The ***following*** is the ***latest*** list of `Global HTML Event Handler Attri
 + [What is UTF-8 Encoding? A Guide for Non-Programmers](https://blog.hubspot.com/website/what-is-utf-8)
 
 + [title: The Document Title element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+
++ [How to Create the Perfect H1 Tag for SEO](https://neilpatel.com/blog/h1-tag/)
 
 + [4.3.11.1 Creating an Outline](https://html.spec.whatwg.org/multipage/sections.html#outlines)
 
