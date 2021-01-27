@@ -1,0 +1,16 @@
+{
+  "name": "basic-structure-web-page",
+  "version": "1.0.0",
+  "description": "Basics and basic structure of an html web page.",
+  "main": "index.js",
+  "scripts": {
+    "slides": "npx reveal-md basic-structure-web-page.md",
+    "customcss": "npx reveal-md basic-structure-web-page.md --css custom.css"
+  },
+  "author": "Maria D. Campbell",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "reveal-md": "^4.3.0"
+  }
+}
