@@ -864,7 +864,7 @@ The `html` element ***represents*** the `root`, or `top-level` element, of an `H
 
 In our ***basic*** `web page`, `VS Code` ***generated*** the ***global*** `lang` attribute ***inside*** the ***opening*** `html` ***tag*** with a `value` of `"en"`. That's ***because*** where we are ***located***, English is the ***dominant*** language.
 
-````html
+```html
 <html lang="en">
 ```
 
@@ -1057,6 +1057,8 @@ Traditionally, it ***also*** best practice to ***only*** use one `h1` element pe
     <h2 class="sentence">The p element</h2>
 
 Also textually ***semantic***, the `p` element ***represents*** a paragraph of ***text***.
+
+Heading elements (i.e., `h1` element) are ***often*** followed by supporting `p` elements.
 
 Paragraphs are ***usually*** represented as ***blocks*** of text ***separated*** from ***adjacent*** blocks by ***blank*** lines and/or ***first-line*** indentation, but they can be ***any*** structural grouping of ***related*** content, such as `images` or `form` fields.
 
