@@ -1206,6 +1206,8 @@ The ***following*** is the ***latest*** list of `Global HTML Event Handler Attri
 
 + [Learn To Code HTML & CSS (Shay Howe)](https://learn.shayhowe.com/)
 
++ [HTML Elements](https://www.tutorialrepublic.com/html-tutorial/html-elements.php)
+
 + [Scripting Master](http://www.scriptingmaster.com/html/HTML-terms-glossary.asp)
 
 + [TutorialReplublic](https://www.tutorialrepublic.com/html-tutorial/)
@@ -1213,6 +1215,10 @@ The ***following*** is the ***latest*** list of `Global HTML Event Handler Attri
 + [HTML Living Standard — Last Updated 22 January 2021](https://html.spec.whatwg.org/multipage/introduction.html)
 
 + [HTML Living Standard — Last Updated 22 January 2021](https://html.spec.whatwg.org/)
+
++ [What is the difference between phrasing content and flow content?](https://stackoverflow.com/questions/30233447/what-is-the-difference-between-phrasing-content-and-flow-content)
+
++ [HTML Content Categories](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories)
 
 + [HTML Tutorial](https://www.w3schools.com/html/)
 
