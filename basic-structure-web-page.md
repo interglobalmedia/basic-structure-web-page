@@ -1198,13 +1198,13 @@ The ***following*** is the ***latest*** list of `Global HTML Event Handler Attri
 
 + [CodeSandbox](https://codesandbox.io/)
 
-+ [HTML (Wikipedia)](https://en.wikipedia.org/wiki/HTML)
++ [HTML: Wikipedia](https://en.wikipedia.org/wiki/HTML)
 
 + [Web Design Museum](https://www.webdesignmuseum.org/web-design-history)
 
-+ [2 - A history of HTML (Addison Wesley Longman )](https://www.w3.org/People/Raggett/book4/ch02.html)
++ [2 - A history of HTML: Addison Wesley Longman](https://www.w3.org/People/Raggett/book4/ch02.html)
 
-+ [Learn To Code HTML & CSS (Shay Howe)](https://learn.shayhowe.com/)
++ [Learn To Code HTML & CSS: Shay Howe](https://learn.shayhowe.com/)
 
 + [HTML Elements](https://www.tutorialrepublic.com/html-tutorial/html-elements.php)
 
@@ -1216,30 +1216,30 @@ The ***following*** is the ***latest*** list of `Global HTML Event Handler Attri
 
 + [HTML Living Standard — Last Updated 22 January 2021](https://html.spec.whatwg.org/)
 
-+ [What is the difference between phrasing content and flow content?](https://stackoverflow.com/questions/30233447/what-is-the-difference-between-phrasing-content-and-flow-content)
++ [What is the difference between phrasing content and flow content?: stackoverflow](https://stackoverflow.com/questions/30233447/what-is-the-difference-between-phrasing-content-and-flow-content)
 
-+ [HTML Content Categories](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories)
++ [HTML Content Categories: MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories)
 
-+ [HTML Tutorial](https://www.w3schools.com/html/)
++ [HTML Tutorial: w3schools](https://www.w3schools.com/html/)
 
-+ [HTML <!DOCTYPE> Declaration](https://www.w3schools.com/tags/tag_doctype.asp)
++ [HTML <!DOCTYPE> Declaration: w3schools](https://www.w3schools.com/tags/tag_doctype.asp)
 
-+ [html: The HTML Document / Root element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
++ [html: The HTML Document / Root element: MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
 
-+ [HTML meta charset Attribute](https://www.w3schools.com/tags/att_meta_charset.asp)
++ [HTML meta charset Attribute: w3schools](https://www.w3schools.com/tags/att_meta_charset.asp)
 
-+ [Character encodings for beginners](https://www.w3.org/International/questions/qa-what-is-encoding)
++ [Character encodings for beginners: w3.org](https://www.w3.org/International/questions/qa-what-is-encoding)
 
-+ [What is UTF-8 Encoding? A Guide for Non-Programmers](https://blog.hubspot.com/website/what-is-utf-8)
++ [What is UTF-8 Encoding? A Guide for Non-Programmers: Jamie Juviler](https://blog.hubspot.com/website/what-is-utf-8)
 
-+ [title: The Document Title element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
++ [title: The Document Title element: MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
-+ [How to Create the Perfect H1 Tag for SEO](https://neilpatel.com/blog/h1-tag/)
++ [How to Create the Perfect H1 Tag for SEO: Neil Patel](https://neilpatel.com/blog/h1-tag/)
 
-+ [4.3.11.1 Creating an Outline](https://html.spec.whatwg.org/multipage/sections.html#outlines)
++ [4.3.11.1 Creating an Outline: WHATWG](https://html.spec.whatwg.org/multipage/sections.html#outlines)
 
-+ [HTML class Attribute](https://www.w3schools.com/tags/att_class.asp)
++ [HTML class Attribute: w3schools](https://www.w3schools.com/tags/att_class.asp)
 
-+ [class attribute (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
++ [class attribute: MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
 
 </section>
