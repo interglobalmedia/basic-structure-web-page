@@ -1019,6 +1019,52 @@ And of ***course*** text files ***encoded*** with `UTF-8` ***must*** indicate th
 ---
 
 <section class="section">
+  <h2 class="sentence">The viewport and how it relates to the meta element</h2>
+
+The `viewport` is the user's ***visible*** area of the `web page`. The `viewport` ***varies*** with ***different*** devices, and will be ***smaller*** on a `mobile phone` than on a `computer screen`.
+
+***Before*** `tablets` and `mobile phones` came along, `web pages` were ***only*** designed for `computer screens`, and `web page` ***layouts*** were ***static*** (only had ***one*** size).
+
+When `mobile phones` and `tablets` were ***introduced***, `static sites` were ***too*** large to ***fit*** the `viewport` of the `mobile phone` or `tablet`, for ***example***. To ***fix*** this, `browsers` on ***those*** devices ***scaled down*** the ***entire*** `web page` to ***fit*** the screen. This was ***not*** a ***perfect*** solution, only a ***quick fix***.
+
+`HTML5` ***introduced*** a ***method*** to let `web designers` ***take control*** over the `viewport` ***through*** the `meta` element.
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+***This*** `meta viewport tag` should be ***added*** to the `head` of the `HTML` document. It ***gives*** the `browsers` ***instructions*** on ***how*** to control the page's ***dimensions*** and ***scaling***.
+
+The `width-device-width` ***part*** sets the `width` of the ***page*** to ***follow*** the `screen width` of the ***device*** (which will ***vary*** depending on the ***device***).
+
+The `initial-scale=1.0` ***part*** sets the ***initial*** `zoom level` when the ***page*** is ***first*** loaded by the `browser`.
+
+<aside class="note">
+    Note: Go into [Responsive Web Design - The Viewport](https://www.w3schools.com/css/css_rwd_viewport.asp) and show the students the examples of pages without viewports and click on the links in my iphone.
+</aside>
+
+</section>
+
+---
+
+<section class="section">
+  <h2 class="sentence">Sizing content to the viewport</h2>
+
+Users are ***used*** to ***scrolling*** `web pages` ***vertically***, but (***typically***) not ***horizontally***. In ***most*** cases, If the user is ***forced*** to scroll ***horizontally***, or ***zoom out*** to see the ***whole*** `web page`, it ***results*** in a ***poor*** `user experience`.
+
+***Other*** rules to ***follow***:
+
++ Do ***not*** use ***large***, `fixed-width` elements. if an ***image*** is ***displayed*** at a `width` ***wider*** than the `viewport`, it can ***cause*** the `viewport` to scroll ***horizontally***. ***Adjust*** the ***content*** to ***fit*** within the `width` of the `viewport`.
+
++ Do ***not*** let the content ***rely*** on a ***particular*** `viewport` ***width*** to ***render*** well. Since `screen dimensions` and `width` in `CSS` pixels vary ***widely*** between ***devices***, ***content*** should ***not*** rely on a ***particular*** `viewport` ***width*** to ***render*** well.
+
++ ***Use*** `CSS` ***media queries*** to ***apply*** different ***styling*** for ***small*** and ***large*** screens. Setting ***large*** `absolute CSS` ***widths*** for `elements` on the ***page*** will ***cause*** the `element` to be ***too*** wide for the `viewport` on a ***smaller*** device. ***Instead***, consider using ***relative*** `width` ***values***, such as `width: 100%`. ***Also***, be ***careful*** of using ***large*** `absolute positioning` ***values***. It may ***cause*** the `element` to fall ***outside*** the `viewport` on ***small*** devices.
+
+</section>
+
+---
+
+<section class="section">
     <h2 class="sentence">The purpose and meaning of the title element</h2>
 
 ***Below*** the `meta` element is a `title` element. It ***defines*** the `document`'s `title` that is ***shown*** in the ***browser's*** `title bar` or a ***page's*** `tab`. It ***only*** contains `text`, and `tags` placed ***within*** the `element` are ***ignored***.
