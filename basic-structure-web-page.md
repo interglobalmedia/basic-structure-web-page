@@ -69,7 +69,7 @@ An `HTML element` which is ***visible*** on the `web page` would ***look*** some
     <h1>
       This is a static template, there is no bundler or bundling involved!
     </h1>
-    <h4>This is the sub-heading for the static template!</h4>
+    <h2>This is the sub-heading for the static template!</h2>
 </header>
 ```
 
@@ -723,7 +723,7 @@ The `id`'s value ***must not*** contain `whitespace` (`spaces`, `tabs`, etc).
 Elements can ***only*** have ONE single `id` value.
 
 ```html
-<h1 id="heading-one">Maria's Kitchen</h1>
+<h1 id="main-heading">Maria's Kitchen</h1>
 ```
 
 </section>
@@ -752,30 +752,44 @@ The `HTML specification` does ***not*** put ***requirements*** on the **naming**
 <section class="section">
     <h2 class="sentence">What constitutes a simple html web page?</h2>
 
-When I ***create*** an `index.html` **page** with the `touch` ***command*** in **Terminal** `touch index.html` at the ***root*** of my **project folder**, I can go ***into*** that page, and **start typing** `html`. The ***result*** is a `dropdown menu` containing the ***following***:
+When I ***create*** an `index.html` **page** with the `touch` ***command*** in **Terminal** `touch index.html` at the ***root*** of my **project folder**, I can go ***into*** that ***page*** inside the `Brackets` ***code editor***, and ***select*** the `HTML Skeleton` ***icon*** located on the ***right*** side of of the `Brackets` ***code editor*** `active window`. A pop-up ***appears*** which ***provides*** me with a ***list*** of ***options***:
 
 ```shell
-html
-html:5
-html:xml
-html5-boilerplate
+Basic HTML Skeleton
+Viewport
+External Stylesheet
+Inline Stylesheet
+External Script
+Inline Script
+Image
 ```
 
-In order to ***generate*** the ***bare minimum*** `html` ***needed*** to create a ***valid*** `html` page, I ***select*** `html:5` from the ***dropdown***, and the ***following*** `html` markup is ***generated***:
+In ***order*** to ***generate*** the ***bare minimum*** `html5` ***needed*** to create a ***valid*** `HTML` page, I ***select*** `Basic HTML Skeleton` from the ***pop-up*** under the `Elements` ***heading***, and the ***following*** `HTML` markup is ***generated***:
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
 </head>
+
 <body>
     
 </body>
 </html>
 ```
+
+I ***only*** have to ***make*** a few ***tweaks*** to the `markup`. 
+
+***First***, I ***have*** to ***add*** the ***value*** `"en"` to the `lang` attribute ***inside*** the ***opening*** `html` tag. 
+
+***Next***, I ***change*** the ***lowercase*** `utf` to all ***uppercase*** `UTF` ***inside*** the ***value*** of the `charset` attribute of the ***first*** `meta` element. 
+
+***Third***, I ***have*** to ***add*** content to the `title` element. I call it `My First HTML document`.
+
+</section>
 
 ---
 
@@ -790,7 +804,7 @@ In order to ***generate*** the ***bare minimum*** `html` ***needed*** to create 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My First HTML document</title>
 </head>
 <body>
     <h1>How I created my first html web page</h1>
@@ -822,7 +836,7 @@ If I ***wanted*** to get a bit ***fancier***, I ***could*** add a ***text-based*
 </html>
 ```
 
-I am ***leaving*** the `p` element ***empty***, and will leave ***you*** to ***add*** the ***text*** describing ***how*** you came to create ***your*** `html` page.
+I am ***leaving*** the `p` element ***empty***, and will leave ***you*** to ***add*** the ***text*** describing ***how*** you came to create ***your*** `HTML` page.
 
 I am ***also*** leaving it to you to ***customize*** the ***content*** of the `title` tag.
 
@@ -862,7 +876,7 @@ The `<!DOCTYPE html>` declaration is ***not*** case sensitive. But ***convention
 
 The `html` element ***represents*** the `root`, or `top-level` element, of an `HTML` document. It is ***also*** referred to as the `root` element. ***All*** other elements on the `page` ***must*** be ***descendants*** of the `html` element.
 
-In our ***basic*** `web page`, `VS Code` ***generated*** the ***global*** `lang` attribute ***inside*** the ***opening*** `html` ***tag*** with a `value` of `"en"`. That's ***because*** where we are ***located***, English is the ***dominant*** language.
+In our ***basic*** `web page`, `Brackets` ***generated*** the ***global*** `lang` attribute ***inside*** the ***opening*** `html` ***tag*** with a `value` of `""` and I added the `en` inside the double quotes. That's ***because*** where we are ***located***, English is the ***dominant*** language.
 
 ```html
 <html lang="en">
@@ -957,7 +971,7 @@ If one ***uses*** anything ***other*** than the most ***basic*** English text on
 <section class="section">
     <h2 class="sentence">What then is Unicode?</h2>
 
-`Unicode` is an `encoding system` that ***solved*** the `space issue` that its ***predecessor*** `ASCII` (`American Standard Code for Information Interchange`, a character encoding standard).
+`Unicode` is an `encoding system` that ***solved*** the `space issue` of its ***predecessor*** `ASCII` (`American Standard Code for Information Interchange`, a character encoding standard).
 
 Just as `ASCII` ***before*** it, `Unicode` ***assigns*** a ***unique*** code, called a `code point`, to ***each*** character. ***Unlike*** `ASCII`, `Unicode` is ***able*** to ***produce*** over a ***million*** `code points`, ***more*** than ***enough*** to ***account*** for ***every*** character in ***any*** language.
 
@@ -1099,7 +1113,7 @@ The `h1` element's ***contents*** should ***describe*** the overall ***purpose**
 
 It is ***best*** practice to ***avoid*** skipping `heading` levels.
 
-Traditionally, it ***also*** best practice to ***only*** use one `h1` element ***per*** page. Using ***more*** than one does ***not*** result in an ***error***, but it is ***not*** considered ***best*** practice. To only have ***one*** is ***better*** for `screen readers` and `SEO`.
+Traditionally, it is ***also*** best practice to ***only*** use one `h1` element ***per*** page. Using ***more*** than one does ***not*** result in an ***error***, but it is ***not*** considered ***best*** practice. To only have ***one*** is ***better*** for `screen readers` and `SEO`.
 
 </section>
 
