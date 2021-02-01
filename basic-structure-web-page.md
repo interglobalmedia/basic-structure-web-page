@@ -1302,4 +1302,8 @@ The ***following*** is the ***latest*** list of `Global HTML Event Handler Attri
 
 + [class attribute: MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
 
++ [Responsive Web Design - The Viewport: w3schools](https://www.w3schools.com/css/css_rwd_viewport.asp)
+
++ [Normal Flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)
+
 </section>
