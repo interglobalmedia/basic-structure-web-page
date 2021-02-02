@@ -742,7 +742,7 @@ The `class` attribute is a `global` attribute which can be ***used*** in ***any*
 The `HTML specification` does ***not*** put ***requirements*** on the **naming** of `classes`, but **web developers** and **designers** are ***encouraged*** to use names which ***semantically*** describe the ***purpose*** of the `element` and ***not*** its ***presentation***. ***Semantic*** names are ***still*** understandable when the ***presentation*** of the page ***changes***.
 
 ```html
-<h1 class="heading-one intro">Maria's Kitchen</h1>
+<h1 class="main-heading intro">Maria's Kitchen</h1>
 ```
 
 </section>
@@ -1049,7 +1049,7 @@ When `mobile phones` and `tablets` were ***introduced***, `static sites` were **
 
 ***This*** `meta viewport tag` should be ***added*** to the `head` of the `HTML` document. It ***gives*** the `browsers` ***instructions*** on ***how*** to control the page's ***dimensions*** and ***scaling***.
 
-The `width-device-width` ***part*** sets the `width` of the ***page*** to ***follow*** the `screen width` of the ***device*** (which will ***vary*** depending on the ***device***).
+The `width=device-width` ***part*** sets the `width` of the ***page*** to ***follow*** the `screen width` of the ***device*** (which will ***vary*** depending on the ***device***).
 
 The `initial-scale=1.0` ***part*** sets the ***initial*** `zoom level` when the ***page*** is ***first*** loaded by the `browser`.
 
