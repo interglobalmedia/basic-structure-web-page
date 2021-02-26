@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "slides": "npx reveal-md basic-structure-web-page.md",
-    "customcss": "npx reveal-md basic-structure-web-page.md --css custom.css"
+    "customcss": "npx reveal-md basic-structure-web-page.md -w --css custom.css"
   },
   "author": "Maria D. Campbell",
   "license": "ISC",
