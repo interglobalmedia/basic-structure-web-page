@@ -31,7 +31,7 @@ When ***learning*** `HTML`, the ***first*** `HTML` **term** one should ***tackle
 
 `HTML element`: is an ***individual*** component within an `HTML` document. It ***can*** represent `semantics`, or `meaning`, and it ***defines*** the **structure** and **content** of an `object` ***within*** a `web page`. For ***example***, the `title element` ***represents*** the `title` of the `document`.
 
-`HTML tag`: ***most*** `HTML elements` ***usually*** consist of an `opening` and `closing` ***tag***. For ***example***, the `title` ***tag*** basically **looks** like the ***following***:
+`HTML tag`: ***most*** `HTML elements` ***usually*** consist of an `opening` and `closing` ***tag***. For ***example***, the `title` **opening** and **closing** `title tags` basically **look** like the ***following***:
 
 ```html
 <title>This is a title</title>
@@ -51,7 +51,7 @@ An `HTML element` which is ***visible*** on the `web page` would ***look*** some
 
 `<h1 class="main-heading" id="main-heading">` is the `start` or `opening tag`, and it ***consists*** of the **following**:
 
-+ A `class attribute` and/or an `id attribute`. ***Here***, the `class attribute` has the `value` of `"main-heading"` and the `id attribute` has the `value` of `"main-heading"` as well. 
++ A `class attribute` and/or an `id attribute`. ***Here***, the `class attribute` has the `value` of `"main-heading"` and the `id attribute` has the `value` of `"main-heading"` as well.
 
 `Maria's Kitchen` ***represents*** the **content** of the `h1 element`.
 
@@ -192,7 +192,7 @@ The ***following*** is the [list](https://html.spec.whatwg.org/#elements-3) of `
     + accepts the `cite` attribute, which links to the source of the **quotation** or ***more*** information about the ***edit***
   + `ol` (flow content, if the element's children ***include*** at ***least*** one `li` element: palpable content, **content model**: zero or ***more*** `li` and ***script-supporting*** elements)
     + can be ***used*** where flow content is ***expected***
-      + accepts the `reversed` attribute, which ***numbers*** the list ***backwards*** 
+      + accepts the `reversed` attribute, which ***numbers*** the list ***backwards***
       + accepts the `start` attribute, which ***provides*** the starting value of the ***list***
       + accepts the `type` attribute, which ***provides*** the kind of list marker
   + `ul` (flow content, content model: zero or more li and script-supporting elements)
@@ -202,7 +202,7 @@ The ***following*** is the [list](https://html.spec.whatwg.org/#elements-3) of `
     + can be ***used*** inside `ol`
     + can be ***used*** inside `ul`
     + can be ***used*** inside `menu`
-      + accepts the `value` attribute, which ***must be*** a valid integer. 
+      + accepts the `value` attribute, which ***must be*** a valid integer.
       + it is ***used*** to ***determine*** the ***ordinal*** value of the list item, when the `li`'s list ***owner*** is an `ol` element
       + if the element is ***not*** a ***child*** of a `ul` or `menu` element: `value` is an ***ordinal*** value of the ***list item***
   + `dl` (flow content, if the element's children ***include*** at ***least*** one name-value ***group***: palpable content, **content model**: either zero or ***more*** groups, each ***consisting*** of one or ***more*** `dt` elements ***followed*** by one or ***more*** `dd` elements, ***optionally*** inter-mixed with ***script-supporting*** elements OR one or ***more*** `div` elements, ***optionally*** inter-mixed with ***script-supporting*** elements)
@@ -776,16 +776,16 @@ In ***order*** to ***generate*** the ***bare minimum*** `html5` ***needed*** to 
 </head>
 
 <body>
-    
+
 </body>
 </html>
 ```
 
-I ***only*** have to ***make*** a few ***tweaks*** to the `markup`. 
+I ***only*** have to ***make*** a few ***tweaks*** to the `markup`.
 
-***First***, I ***have*** to ***add*** the ***value*** `"en"` to the `lang` attribute ***inside*** the ***opening*** `html` tag. 
+***First***, I ***have*** to ***add*** the ***value*** `"en"` to the `lang` attribute ***inside*** the ***opening*** `html` tag.
 
-***Next***, I ***change*** the ***lowercase*** `utf` to all ***uppercase*** `UTF` ***inside*** the ***value*** of the `charset` attribute of the ***first*** `meta` element. 
+***Next***, I ***change*** the ***lowercase*** `utf` to all ***uppercase*** `UTF` ***inside*** the ***value*** of the `charset` attribute of the ***first*** `meta` element.
 
 ***Third***, I ***have*** to ***add*** content to the `title` element. I call it `My First HTML document`.
 
@@ -1037,7 +1037,7 @@ And of ***course*** text files ***encoded*** with `UTF-8` ***must*** indicate th
 
 The `viewport` is the user's ***visible*** area of the `web page`. The `viewport` ***varies*** with ***different*** devices, and will be ***smaller*** on a `mobile phone` than on a `computer screen`.
 
-***Before*** `tablets` and `mobile phones` came along, `web pages` were ***only*** designed for `computer screens`, and `web page` ***layouts*** were ***static*** (only had ***one*** size).
+***Before*** `tablets` and `mobile phones` came along, `web pages` were ***only*** designed for `computer screens`, and `web page` ***layouts*** were ***static*** (only had ***one*** size - today `static sites` ***carry*** a ***different*** `meaning`).
 
 When `mobile phones` and `tablets` were ***introduced***, `static sites` were ***too*** large to ***fit*** the `viewport` of the `mobile phone` or `tablet`, for ***example***. To ***fix*** this, `browsers` on ***those*** devices ***scaled down*** the ***entire*** `web page` to ***fit*** the screen. This was ***not*** a ***perfect*** solution, only a ***quick fix***.
 
@@ -1047,7 +1047,7 @@ When `mobile phones` and `tablets` were ***introduced***, `static sites` were **
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-***This*** `meta viewport tag` should be ***added*** to the `head` of the `HTML` document. It ***gives*** the `browsers` ***instructions*** on ***how*** to control the page's ***dimensions*** and ***scaling***.
+***This*** `meta viewport element` should be ***added*** to the `head` of the `HTML` document. It ***gives*** the `browsers` ***instructions*** on ***how*** to control the page's ***dimensions*** and ***scaling***.
 
 The `width=device-width` ***part*** sets the `width` of the ***page*** to ***follow*** the `screen width` of the ***device*** (which will ***vary*** depending on the ***device***).
 
@@ -1081,9 +1081,9 @@ Users are ***used*** to ***scrolling*** `web pages` ***vertically***, but (***ty
 <section class="section">
     <h2 class="sentence">The purpose and meaning of the title element</h2>
 
-***Below*** the `meta` element is a `title` element. It ***defines*** the `document`'s `title` that is ***shown*** in the ***browser's*** `title bar` or a ***page's*** `tab`. It ***only*** contains `text`, and `tags` placed ***within*** the `element` are ***ignored***.
+***Below*** the `meta` element is a `title` element. It ***defines*** the `document`'s `title` that is ***shown*** in the ***browser's*** `title bar` or a ***page's*** `tab`. Its content ***only*** contains `text`, and `tags` placed ***within*** the `element` are ***ignored***.
 
-the `title` element is ***required*** in `HTML` documents, and the ***contents*** of a page `title` is ***very*** important for `search engine optimization` (`SEO`).
+The `title element` is ***required*** in `HTML` documents, and the ***contents*** of a page `title` is ***very*** important for `search engine optimization` (`SEO`).
 
 The page `title` is ***used*** by `search engine` algorithms to ***decide*** its ***order*** in `search` when ***listing*** pages in `search` results.
 
@@ -1105,11 +1105,11 @@ The `body` element ***represents*** the ***content*** of an `HTML` document. It 
 <section class="section">
     <h2 class="sentence">The h1 element</h2>
 
-At the ***top*** of the `body` element, right ***below*** the ***opening*** `body` tag, our basic web page ***contains*** an `h1` element. 
+At the ***top*** of the `body` element, right ***below*** the ***opening*** `body` tag, our basic web page ***contains*** an `h1` element.
 
 The `h1` element is ***used*** to ***indicate*** the ***most*** important (or ***highest-level***) `heading` on the `page`.
 
-The `h1` element's ***contents*** should ***describe*** the overall ***purpose*** of the `page` content. ***If*** the ***content*** of the `h1` element ***does*** successfully ***describe*** the ***overall*** purpose of the `page` content, it will ***improve*** the `SEO` of the `web page`, thereby ***improving*** its ***ranking*** in `search results`. 
+The `h1` element's ***contents*** should ***describe*** the overall ***purpose*** of the `page` content. ***If*** the ***content*** of the `h1` element ***does*** successfully ***describe*** the ***overall*** purpose of the `page` content, it will ***improve*** the `SEO` of the `web page`, thereby ***improving*** its ***ranking*** in `search results`.
 
 It is ***best*** practice to ***avoid*** skipping `heading` levels.
 
@@ -1266,15 +1266,15 @@ The ***following*** is the ***latest*** list of `Global HTML Event Handler Attri
 
 + [Learn To Code HTML & CSS: Shay Howe](https://learn.shayhowe.com/)
 
-+ [HTML Elements](https://www.tutorialrepublic.com/html-tutorial/html-elements.php)
++ [HTML Elements: Tutorial Republic](https://www.tutorialrepublic.com/html-tutorial/html-elements.php)
 
-+ [Scripting Master](http://www.scriptingmaster.com/html/HTML-terms-glossary.asp)
++ [HTML Terms Glossary: Scripting Master](http://www.scriptingmaster.com/html/HTML-terms-glossary.asp)
 
-+ [TutorialReplublic](https://www.tutorialrepublic.com/html-tutorial/)
++ [HTML Tutorial: TutorialReplublic](https://www.tutorialrepublic.com/html-tutorial/)
 
-+ [HTML Living Standard — Last Updated 22 January 2021](https://html.spec.whatwg.org/multipage/introduction.html)
++ [HTML Living Standard: Introduction](https://html.spec.whatwg.org/multipage/introduction.html)
 
-+ [HTML Living Standard — Last Updated 22 January 2021](https://html.spec.whatwg.org/)
++ [HTML Living Standard](https://html.spec.whatwg.org/)
 
 + [What is the difference between phrasing content and flow content?: stackoverflow](https://stackoverflow.com/questions/30233447/what-is-the-difference-between-phrasing-content-and-flow-content)
 
